@@ -4,7 +4,7 @@
 // kredensial lama dirotasi karena sebelumnya sudah terpapar.\n\n// Konfigurasi Blynk IoT: 
 #define BLYNK_TEMPLATE_ID "TMPL6Gs2GHgrL"
 #define BLYNK_TEMPLATE_NAME "Sistem penyiraman Otomatis dengan AI"
-#define BLYNK_AUTH_TOKEN "0AW7N8Dqo-948TJqscxDR2agkg2aPsV5"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #include <BlynkSimpleEsp8266.h>
 #include <ESP8266WiFi.h>
@@ -22,7 +22,7 @@ const char* password = "";
 // =====================================================
 // 2. KONFIGURASI GEMINI API
 // =====================================================
-const char* geminiAPIKey = "AQ.Ab8RN6IESmVoWgt_-PqKiOg0R6HMFb3GfxEjxJbTGPtMnq8BNg";
+const char* geminiAPIKey = "YOUR_GEMINI_API_KEY";
 const char* geminiModel = "gemini-3.5-flash";
 const char* geminiURL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent";
 
